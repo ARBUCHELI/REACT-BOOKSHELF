@@ -1,0 +1,12 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  margin: auto;
+  padding: auto;
+  font-family: 'Times New Roman','Roboto', sans-serif;
+  color: #618685; /*Color of the text in the website*/
+}
