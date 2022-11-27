@@ -228,3 +228,12 @@ body, .app {
     font-size: 13px;
   }
 }
+
+@media screen and (max-width: 415px) {
+  .list-books-title {
+    font-size: 13px;
+  }
+  .bookshelf-title {
+    font-size: 13px;
+  }
+}
