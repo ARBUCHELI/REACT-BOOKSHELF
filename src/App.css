@@ -219,3 +219,12 @@ body, .app {
   text-align: center;
   font-size: 0.8em;
 }
+
+@media screen and (max-width: 376px) {
+  .list-books-title {
+    font-size: 13px;
+  }
+  .bookshelf-title {
+    font-size: 13px;
+  }
+}
