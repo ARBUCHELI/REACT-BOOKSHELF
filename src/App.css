@@ -50,6 +50,10 @@ body, .app {
   padding: 0 10px 20px;
 }
 
+.web-creator a {
+  font-size: 18px;
+}
+
 @media (min-width: 600px) {
   .bookshelf {
     padding: 0 20px 40px;
@@ -227,6 +231,15 @@ body, .app {
   font-size: 0.8em;
 }
 
+@media screen and (max-width: 415px) {
+  .list-books-title {
+    font-size: 13px;
+  }
+  .bookshelf-title {
+    font-size: 13px;
+  }
+}
+
 @media screen and (max-width: 376px) {
   .list-books-title {
     font-size: 13px;
@@ -250,16 +263,7 @@ body, .app {
     color: white;
     text-decoration: none;
     text-align: center;
-    font-size: 13px;
-  }
-}
-
-@media screen and (max-width: 415px) {
-  .list-books-title {
-    font-size: 13px;
-  }
-  .bookshelf-title {
-    font-size: 13px;
+    font-size: 14px;
   }
 }
 
@@ -271,3 +275,7 @@ body, .app {
     font-size: 12px;
   }
 }
+
+
+
+
