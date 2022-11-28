@@ -173,7 +173,6 @@ body, .app {
 
 .web-creator a {
   color: white;
-  text-decoration: none;
   text-align: center;
 }
 
@@ -261,7 +260,6 @@ body, .app {
   
   .web-creator a {
     color: white;
-    text-decoration: none;
     text-align: center;
     font-size: 14px;
   }
