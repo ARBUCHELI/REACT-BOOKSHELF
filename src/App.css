@@ -164,6 +164,13 @@ body, .app {
 .web-creator {
   padding-left: 1em;
   color: #b1cbbb;
+  text-align: center;
+}
+
+.web-creator a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
 }
 
 .book {
@@ -227,6 +234,24 @@ body, .app {
   .bookshelf-title {
     font-size: 13px;
   }
+  .search-books-results {
+    font-size: 12px;
+  }
+  .search-books-input-wrapper {
+    font-size: 13px;
+  }
+  .web-creator {
+    padding-left: 1em;
+    color: #b1cbbb;
+    text-align: center;
+  }
+  
+  .web-creator a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width: 415px) {
@@ -235,5 +260,14 @@ body, .app {
   }
   .bookshelf-title {
     font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 361px) {
+  .list-books-title {
+    font-size: 12px;
+  }
+  .bookshelf-title {
+    font-size: 12px;
   }
 }

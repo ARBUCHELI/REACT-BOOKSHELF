@@ -48,7 +48,7 @@ class Search extends React.Component {
           ))) : <li></li> }
           </ol>
         </div>
-        <p className="web-creator"><strong>Created by:</strong> Andrés R. Bucheli</p> 
+        <p className="web-creator"><a href="https://bucheli-web-personal-portfolio-website.netlify.app/index.html" target="_blank" rel="noopener noreferrer">Bucheli Web Development © 2017</a></p> 
       </div>
     )
   }
